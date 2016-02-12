@@ -25,5 +25,5 @@ opkg install unwired-gpio_1_ar71xx.ipk
 ```
 
 
-[1]: hhttp://www.unwireddevices.com/wiki/index.php/Working_with_GPIOs_(C/C%2B%2B)
+[1]: http://www.unwireddevices.com/wiki/index.php/Working_with_GPIOs_(C/C%2B%2B)
 [2]: http://www.unwireddevices.com/wiki/index.php/C/C%2B%2B_Building_Environment
