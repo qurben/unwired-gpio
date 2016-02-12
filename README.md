@@ -13,7 +13,7 @@ When you have a working installation, place this repository in the `openwrt/pack
 Create a `.ipk` file by running
 
 ```bash
-# make package/unwired-gpio/{prepare,compile}
+make package/unwired-gpio/{prepare,compile}
 ```
 
 from the `openwrt` folder.
@@ -21,7 +21,7 @@ from the `openwrt` folder.
 You can find the `unwired-gpio_1_ar71xx.ipk` file in the `bin/ar71xx/packages/base/` folder, copy this file to your Unwired One and install it with
 
 ```bash
-# opkg install unwired-gpio_1_ar71xx.ipk
+opkg install unwired-gpio_1_ar71xx.ipk
 ```
 
 
