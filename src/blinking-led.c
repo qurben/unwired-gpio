@@ -61,13 +61,13 @@ int main()
 {
 	if (gpioSetup() == 0)
 	{
-		gpioDirection(23, 1);
+		gpioDirection(27, 1);
 		while (1)
 		{
-			gpioSet(23, 1);
+			gpioSet(27, 1);
 			printf("ON\n");
 			sleep(1);
-			gpioSet(23, 0);
+			gpioSet(27, 0);
 			printf("OFF\n");
 			sleep(1);
 		}

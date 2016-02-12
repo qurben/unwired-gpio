@@ -2,7 +2,7 @@
 
 This repository is based on the gpio example from [Working with GPIOs (C/C++)][1] on the Unwired One wiki.
 
-This program blinks gpio pin 23 on and off every second.
+This program blinks gpio pin 27, which is also the onboard LED, on and off every second.
 
 ## Compiling
 
