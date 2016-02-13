@@ -1,6 +1,7 @@
 #include <fcntl.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <sys/mman.h>
+#include <unistd.h>
 
 #define GPIO_ADDR 0x18040000 // base address
 #define GPIO_BLOCK 48 // memory block size
@@ -72,4 +73,6 @@ int main()
 			sleep(1);
 		}
 	}
+
+	return 0;
 }
